@@ -16,7 +16,7 @@ inputs = {
 remote_state {
   backend = "s3"
   config = {
-    bucket         = "terragrunt-spacelift-state"
+    bucket         = "terragrunt-spacelift-state-env"
     key            = "config2/terraform.tfstate"
     region         = "eu-west-1"
     encrypt        = true
